@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diensten — ZT Digital</title>
+<meta name="description" content="Websites, software op maat, AI-implementatie, automatisering en advies. Bekijk wat ZT Digital voor je kan betekenen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="lang-nl">
+<div class="content">
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">ZT <em>Digital</em></a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="diensten.html" class="active nl">Diensten</a><a href="diensten.html" class="active en">Services</a>
+        <a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a>
+        <a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a>
+        <a href="blog.html" class="nl">Blog</a><a href="blog.html" class="en">Blog</a>
+        <a href="contact.html" class="nl">Contact</a><a href="contact.html" class="en">Contact</a>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="nl" onclick="setLang('nl')">NL</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contact.html" class="nav-cta nl">Neem contact op</a>
+      <a href="contact.html" class="nav-cta en">Get in touch</a>
+      <button class="menu-toggle" onclick="toggleMenu()"><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="diensten.html" onclick="closeMenu()" class="nl">Diensten</a><a href="diensten.html" onclick="closeMenu()" class="en">Services</a>
+  <a href="werkwijze.html" onclick="closeMenu()" class="nl">Werkwijze</a><a href="werkwijze.html" onclick="closeMenu()" class="en">How we work</a>
+  <a href="over-ons.html" onclick="closeMenu()" class="nl">Over ons</a><a href="over-ons.html" onclick="closeMenu()" class="en">About</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()"><em>Contact</em></a>
+</div>
+
+<!-- PAGE HEAD -->
+<section class="page-head">
+  <div class="page-head-glow"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-line"></span>
+      <span class="nl">Diensten</span><span class="en">Services</span>
+    </div>
+    <h1 class="serif reveal nl">Wat we voor<br>je <em>maken.</em></h1>
+    <h1 class="serif reveal en">What we<br><em>make</em> for you.</h1>
+    <p class="lead reveal nl">Van een nieuwe website tot een compleet softwareplatform. Hieronder leest u precies wat wij doen — en wat u van ons mag verwachten.</p>
+    <p class="lead reveal en">From a new website to a complete software platform. Below you'll read exactly what we do — and what you can expect from us.</p>
+  </div>
+</section>
+
+<!-- SERVICE 01 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">01</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">Websites & <em>webdesign</em></h2>
+        <h2 class="serif en">Websites & <em>web design</em></h2>
+        <p class="nl">Uw website is vaak het eerste wat een klant van uw bedrijf ziet. Wij zorgen dat die indruk klopt: strak, snel en ontworpen om bezoekers om te zetten in klanten. Geen standaardsjabloon, maar een website die aansluit bij uw bedrijf.</p>
+        <p class="en">Your website is often the first thing a customer sees of your business. We make sure that impression is right: sleek, fast and designed to convert visitors into customers. Not a standard template, but a website that fits your business.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Ontwerp dat aansluit bij uw merk en uitstraling</span><span class="en">Design that fits your brand and identity</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Snel, veilig en goed vindbaar in Google</span><span class="en">Fast, secure and easy to find on Google</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Werkt perfect op telefoon, tablet en laptop</span><span class="en">Works perfectly on phone, tablet and laptop</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Optioneel met online afspraken of een webshop</span><span class="en">Optionally with online booking or a webshop</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 02 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">02</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">Software <em>op maat</em></h2>
+        <h2 class="serif en">Custom <em>software</em></h2>
+        <p class="nl">Loopt u vast met standaardsoftware die net niet doet wat u wilt? Of heeft u een idee voor een applicatie of systeem dat nog niet bestaat? Wij ontwikkelen software die volledig is ontworpen rond uw manier van werken — van een intern systeem tot een compleet platform met abonnees.</p>
+        <p class="en">Stuck with standard software that doesn't quite do what you want? Or do you have an idea for an application or system that doesn't exist yet? We develop software designed entirely around your way of working — from an internal system to a complete platform with subscribers.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Van eerste idee tot werkend product</span><span class="en">From first idea to working product</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Webapplicaties, klantportalen en dashboards</span><span class="en">Web apps, customer portals and dashboards</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Groeit mee met uw bedrijf, geen vastgelopen systeem</span><span class="en">Grows with your business, no dead-end system</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">U blijft eigenaar van uw eigen software</span><span class="en">You stay the owner of your own software</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 03 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">03</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">AI in je <em>bedrijf</em></h2>
+        <h2 class="serif en">AI in your <em>business</em></h2>
+        <p class="nl">Iedereen heeft het over AI, maar weinigen leggen uit wat u er concreet mee kunt. Wij wel. Samen met u bekijken wij waar AI daadwerkelijk tijd of geld bespaart — en waar het geen toegevoegde waarde heeft. Vervolgens implementeren wij het, zodat het naadloos werkt in uw dagelijkse praktijk.</p>
+        <p class="en">Everyone's talking about AI, but few explain what you can actually do with it. We do. Together we look at where AI genuinely saves time or money — and where it adds no value. Then we implement it, so it works seamlessly in your daily routine.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Heldere uitleg over wat AI wél en niet kan</span><span class="en">Clear explanation of what AI can and can't do</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Slimme chatbots en automatische klantantwoorden</span><span class="en">Smart chatbots and automatic customer replies</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Documenten, e-mails en teksten automatisch verwerken</span><span class="en">Automatically process documents, emails and text</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Praktisch, niet als hype maar als gereedschap</span><span class="en">Practical, not as hype but as a tool</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 04 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">04</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">Werk <em>automatiseren</em></h2>
+        <h2 class="serif en">Automating <em>work</em></h2>
+        <p class="nl">Elk bedrijf kent terugkerende handmatige taken: gegevens overtypen, e-mails versturen, overzichten bijwerken. Tijdrovend en foutgevoelig. Veel daarvan kan geautomatiseerd worden. Wij koppelen uw systemen aan elkaar, zodat het werk zichzelf doet.</p>
+        <p class="en">Every business has recurring manual tasks: copying data, sending emails, updating overviews. Time-consuming and error-prone. Much of that can be automated. We connect your systems so the work does itself.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Losse systemen aan elkaar koppelen</span><span class="en">Connect systems that now stand alone</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Automatische facturen, mails en herinneringen</span><span class="en">Automatic invoices, emails and reminders</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Minder handwerk, minder fouten</span><span class="en">Less manual work, fewer mistakes</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Meer tijd voor het werk dat er echt toe doet</span><span class="en">More time for the work that really matters</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 05 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">05</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">Advies & <em>consultancy</em></h2>
+        <h2 class="serif en">Advice & <em>consultancy</em></h2>
+        <p class="nl">Soms heeft u geen kant-en-klare oplossing nodig, maar een partner die met u meedenkt. Welk systeem past bij uw bedrijf? Is een bepaalde investering in software verstandig? Hoe pakt u digitalisering aan met behoud van draagvlak binnen uw team? Wij adviseren u graag — onafhankelijk en transparant.</p>
+        <p class="en">Sometimes you don't need a ready-made solution, but a partner to think along with you. Which system fits your business? Is a certain software investment wise? How do you approach digitalisation while keeping your team on board? We're happy to advise — independently and transparently.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Onafhankelijk advies over software en systemen</span><span class="en">Independent advice on software and systems</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Een digitaliseringsplan dat past bij uw tempo</span><span class="en">A digitalisation plan that fits your pace</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Hulp bij de keuze tussen standaardsoftware of maatwerk</span><span class="en">Help choosing between off-the-shelf or custom</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Een eerlijk en onderbouwd advies</span><span class="en">Honest, well-founded advice</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 06 -->
+<section class="svc-detail">
+  <div class="wrap">
+    <div class="svc-detail-grid">
+      <div class="svc-detail-num serif reveal">06</div>
+      <div class="svc-detail-body reveal">
+        <h2 class="serif nl">Veilig gebruik <em>van AI</em></h2>
+        <h2 class="serif en">Safe use <em>of AI</em></h2>
+        <p class="nl">Steeds meer medewerkers gebruiken AI-tools zoals ChatGPT, vaak zonder na te denken over de risico's. Bedrijfsgegevens, klantinformatie en contracten worden ingevoerd in systemen waar die data het bedrijf verlaat. Dat brengt risico's met zich mee op het gebied van privacy, AVG en bedrijfsgeheimen. Wij helpen u AI veilig en verantwoord in te zetten.</p>
+        <p class="en">More and more employees use AI tools like ChatGPT, often without considering the risks. Company data, customer information and contracts are entered into systems where that data leaves the business. This creates risks around privacy, GDPR and trade secrets. We help you use AI safely and responsibly.</p>
+        <div class="svc-points">
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">AI-veiligheidsscan: hoe gebruikt uw team nu AI?</span><span class="en">AI safety scan: how does your team use AI now?</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Een helder AI-beleid: wat mag wel en wat niet</span><span class="en">A clear AI policy: what's allowed and what's not</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Workshop voor uw medewerkers over veilig gebruik</span><span class="en">A workshop for your employees on safe use</span></div>
+          <div class="svc-point"><span class="dot">✦</span><span class="nl">Overstap naar AVG-proof, zakelijke AI-oplossingen</span><span class="en">Migration to GDPR-compliant business AI solutions</span></div>
+        </div>
+        <div style="margin-top:36px">
+          <a href="blog.html" class="btn btn-line nl">Lees onze blog over AI-veiligheid <span class="arr">→</span></a>
+          <a href="blog.html" class="btn btn-line en">Read our blog on AI safety <span class="arr">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-block">
+  <div class="cta-block-glow"></div>
+  <div class="wrap">
+    <div class="cta-block-inner reveal">
+      <h2 class="serif nl">Niet zeker wat u<br><em>nodig heeft?</em></h2>
+      <h2 class="serif en">Not sure what you<br><em>need?</em></h2>
+      <p class="nl">Geen probleem. Vertel ons over uw vraagstuk, dan denken wij met u mee. Het eerste gesprek is kosteloos.</p>
+      <p class="en">No problem. Tell us about your challenge and we'll think along. The first consultation is free.</p>
+      <a href="contact.html" class="btn btn-primary nl"><span>Plan een gesprek</span><span class="arr">→</span></a>
+      <a href="contact.html" class="btn btn-primary en"><span>Schedule a call</span><span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">ZT <em>Digital</em></a>
+        <p class="nl">Websites, software en AI voor ondernemers die willen groeien. Doordacht werk, in heldere taal.</p>
+        <p class="en">Websites, software and AI for entrepreneurs who want to grow. Considered work, in clear language.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4 class="nl">Menu</h4><h4 class="en">Menu</h4>
+          <ul>
+            <li><a href="diensten.html" class="nl">Diensten</a><a href="diensten.html" class="en">Services</a></li>
+            <li><a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a></li>
+            <li><a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@ztdigital.nl">info@ztdigital.nl</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ZT Digital</span>
+      <span class="nl">Gemaakt in Nederland</span>
+      <span class="en">Made in the Netherlands</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

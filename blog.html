@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Veilig gebruik van AI | ZT Digital</title>
+<meta name="description" content="Praktische inzichten over het veilig en verantwoord inzetten van AI in uw bedrijf. Korte, heldere artikelen van ZT Digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="lang-nl">
+<div class="content">
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">ZT <em>Digital</em></a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="diensten.html" class="nl">Diensten</a><a href="diensten.html" class="en">Services</a>
+        <a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a>
+        <a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a>
+        <a href="blog.html" class="active nl">Blog</a><a href="blog.html" class="active en">Blog</a>
+        <a href="contact.html" class="nl">Contact</a><a href="contact.html" class="en">Contact</a>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="nl" onclick="setLang('nl')">NL</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contact.html" class="nav-cta nl">Neem contact op</a>
+      <a href="contact.html" class="nav-cta en">Get in touch</a>
+      <button class="menu-toggle" onclick="toggleMenu()"><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="diensten.html" onclick="closeMenu()" class="nl">Diensten</a><a href="diensten.html" onclick="closeMenu()" class="en">Services</a>
+  <a href="werkwijze.html" onclick="closeMenu()" class="nl">Werkwijze</a><a href="werkwijze.html" onclick="closeMenu()" class="en">How we work</a>
+  <a href="over-ons.html" onclick="closeMenu()" class="nl">Over ons</a><a href="over-ons.html" onclick="closeMenu()" class="en">About</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()"><em>Contact</em></a>
+</div>
+
+<!-- PAGE HEAD -->
+<section class="page-head">
+  <div class="page-head-glow"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-line"></span>
+      <span class="nl">Blog · Veilig gebruik van AI</span><span class="en">Blog · Safe use of AI</span>
+    </div>
+    <h1 class="serif reveal nl">AI, maar dan<br><em>verantwoord.</em></h1>
+    <h1 class="serif reveal en">AI, but done<br><em>responsibly.</em></h1>
+    <p class="lead reveal nl">Veel bedrijven gebruiken AI zonder stil te staan bij de risico's. Hier delen wij regelmatig korte, praktische inzichten over hoe u AI veilig en verantwoord inzet.</p>
+    <p class="lead reveal en">Many businesses use AI without considering the risks. Here we regularly share short, practical insights on how to use AI safely and responsibly.</p>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="blog-intro" style="padding-top:80px">
+  <div class="wrap">
+    <div class="blog-grid">
+
+      <!-- FEATURED -->
+      <a href="blog-chatgpt-bedrijfsdata.html" class="blog-card blog-featured reveal">
+        <div class="blog-featured-img">
+          <span class="blog-featured-mark serif">AI</span>
+        </div>
+        <div class="blog-featured-body">
+          <span class="blog-card-tag nl">★ Uitgelicht · Privacy</span><span class="blog-card-tag en">★ Featured · Privacy</span>
+          <div class="blog-card-date">5 juni 2026</div>
+          <h2 class="nl">Waarom u nooit klantgegevens in ChatGPT moet plakken</h2>
+          <h2 class="en">Why you should never paste customer data into ChatGPT</h2>
+          <p class="nl">Het lijkt onschuldig: even een klantmail door ChatGPT halen. Maar die data kan het bedrijf verlaten en zelfs gebruikt worden om het model te trainen. Wat zijn de risico's en hoe doet u het wél veilig?</p>
+          <p class="en">It seems harmless: running a customer email through ChatGPT. But that data can leave your business and even be used to train the model. What are the risks and how do you do it safely?</p>
+          <span class="blog-card-more nl">Lees verder <span class="arr">→</span></span>
+          <span class="blog-card-more en">Read more <span class="arr">→</span></span>
+        </div>
+      </a>
+
+      <!-- ARTICLE 2 -->
+      <a href="blog-avg-en-ai.html" class="blog-card reveal">
+        <span class="blog-card-tag nl">AVG</span><span class="blog-card-tag en">GDPR</span>
+        <div class="blog-card-date">28 mei 2026</div>
+        <h2 class="nl">AI en de AVG: wat mag wel en wat niet?</h2>
+        <h2 class="en">AI and GDPR: what's allowed and what isn't?</h2>
+        <p class="nl">Persoonsgegevens en AI is een gevoelige combinatie. We leggen in begrijpelijke taal uit waar u op moet letten om binnen de wet te blijven.</p>
+        <p class="en">Personal data and AI is a sensitive combination. We explain in plain language what to watch out for to stay within the law.</p>
+        <span class="blog-card-more nl">Lees verder <span class="arr">→</span></span>
+        <span class="blog-card-more en">Read more <span class="arr">→</span></span>
+      </a>
+
+      <!-- ARTICLE 3 -->
+      <a href="blog-ai-beleid.html" class="blog-card reveal">
+        <span class="blog-card-tag nl">Beleid</span><span class="blog-card-tag en">Policy</span>
+        <div class="blog-card-date">20 mei 2026</div>
+        <h2 class="nl">In 5 stappen naar een AI-beleid voor uw bedrijf</h2>
+        <h2 class="en">5 steps to an AI policy for your business</h2>
+        <p class="nl">Zonder duidelijke afspraken doet iedereen maar wat. Een helder AI-beleid voorkomt problemen. Zo stelt u er een op.</p>
+        <p class="en">Without clear agreements, everyone does their own thing. A clear AI policy prevents problems. Here's how to create one.</p>
+        <span class="blog-card-more nl">Lees verder <span class="arr">→</span></span>
+        <span class="blog-card-more en">Read more <span class="arr">→</span></span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-block">
+  <div class="cta-block-glow"></div>
+  <div class="wrap">
+    <div class="cta-block-inner reveal">
+      <h2 class="serif nl">AI veilig inzetten in<br>uw <em>bedrijf?</em></h2>
+      <h2 class="serif en">Use AI safely in<br>your <em>business?</em></h2>
+      <p class="nl">Wij helpen u graag. Van een AI-veiligheidsscan tot een workshop voor uw team — neem vrijblijvend contact op.</p>
+      <p class="en">We're happy to help. From an AI safety scan to a workshop for your team — get in touch without obligation.</p>
+      <a href="contact.html" class="btn btn-primary nl"><span>Neem contact op</span><span class="arr">→</span></a>
+      <a href="contact.html" class="btn btn-primary en"><span>Get in touch</span><span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">ZT <em>Digital</em></a>
+        <p class="nl">Websites, software en AI voor ondernemers die willen groeien. Doordacht werk, in heldere taal.</p>
+        <p class="en">Websites, software and AI for entrepreneurs who want to grow. Considered work, in clear language.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4 class="nl">Menu</h4><h4 class="en">Menu</h4>
+          <ul>
+            <li><a href="diensten.html" class="nl">Diensten</a><a href="diensten.html" class="en">Services</a></li>
+            <li><a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a></li>
+            <li><a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@ztdigital.nl">info@ztdigital.nl</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ZT Digital</span>
+      <span class="nl">Gemaakt in Nederland</span>
+      <span class="en">Made in the Netherlands</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

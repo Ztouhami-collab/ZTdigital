@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZT Digital — Websites, software en AI voor het MKB</title>
+<meta name="description" content="ZT Digital bouwt websites, software en AI-oplossingen voor Nederlandse ondernemers. Begrijpelijk, eerlijk en zonder poespas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="lang-nl">
+<div class="content">
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">ZT <em>Digital</em></a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="diensten.html" class="nl">Diensten</a><a href="diensten.html" class="en">Services</a>
+        <a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a>
+        <a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a>
+        <a href="blog.html" class="nl">Blog</a><a href="blog.html" class="en">Blog</a>
+        <a href="contact.html" class="nl">Contact</a><a href="contact.html" class="en">Contact</a>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="nl" onclick="setLang('nl')">NL</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contact.html" class="nav-cta nl">Neem contact op</a>
+      <a href="contact.html" class="nav-cta en">Get in touch</a>
+      <button class="menu-toggle" onclick="toggleMenu()"><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <a href="diensten.html" onclick="closeMenu()" class="nl">Diensten</a><a href="diensten.html" onclick="closeMenu()" class="en">Services</a>
+  <a href="werkwijze.html" onclick="closeMenu()" class="nl">Werkwijze</a><a href="werkwijze.html" onclick="closeMenu()" class="en">How we work</a>
+  <a href="over-ons.html" onclick="closeMenu()" class="nl">Over ons</a><a href="over-ons.html" onclick="closeMenu()" class="en">About</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()"><em>Contact</em></a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-eyebrow eyebrow">
+    <span class="eyebrow-line"></span>
+    <span class="nl">Digitaal bureau · Nederland</span>
+    <span class="en">Digital studio · Netherlands</span>
+  </div>
+  <h1 class="hero-title serif nl">
+    <span class="line"><span>Digitale oplossingen</span></span>
+    <span class="line"><span>die uw bedrijf</span></span>
+    <span class="line"><span>verder <em>brengen.</em></span></span>
+  </h1>
+  <h1 class="hero-title serif en">
+    <span class="line"><span>Digital solutions</span></span>
+    <span class="line"><span>that move your</span></span>
+    <span class="line"><span>business <em>forward.</em></span></span>
+  </h1>
+  <p class="hero-sub nl">ZT Digital ontwikkelt websites, software en AI-oplossingen voor ondernemers die willen groeien. Doordacht, helder en tegen een eerlijke prijs.</p>
+  <p class="hero-sub en">ZT Digital develops websites, software and AI solutions for entrepreneurs who want to grow. Considered, clear and at a fair price.</p>
+  <div class="hero-actions">
+    <a href="contact.html" class="btn btn-primary nl"><span>Plan een gesprek</span><span class="arr">→</span></a>
+    <a href="contact.html" class="btn btn-primary en"><span>Schedule a call</span><span class="arr">→</span></a>
+    <a href="diensten.html" class="btn btn-line nl">Onze diensten <span class="arr">→</span></a>
+    <a href="diensten.html" class="btn btn-line en">Our services <span class="arr">→</span></a>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Websites</span><span class="marquee-dot">✦</span>
+    <span class="marquee-item serif"><em>Software op maat</em></span><span class="marquee-dot">✦</span>
+    <span class="marquee-item">AI-implementatie</span><span class="marquee-dot">✦</span>
+    <span class="marquee-item serif"><em>Automatisering</em></span><span class="marquee-dot">✦</span>
+    <span class="marquee-item">Advies</span><span class="marquee-dot">✦</span>
+    <span class="marquee-item serif"><em>Software op maat</em></span><span class="marquee-dot">✦</span>
+    <span class="marquee-item">Websites</span><span class="marquee-dot">✦</span>
+    <span class="marquee-item serif"><em>AI-implementatie</em></span><span class="marquee-dot">✦</span>
+    <span class="marquee-item">Automatisering</span><span class="marquee-dot">✦</span>
+    <span class="marquee-item serif"><em>Advies</em></span><span class="marquee-dot">✦</span>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="textblock">
+  <div class="wrap">
+    <div class="textblock-grid">
+      <div class="textblock-left reveal">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="nl">Even voorstellen</span>
+          <span class="en">Hello</span>
+        </div>
+      </div>
+      <div class="textblock-right reveal">
+        <h2 class="nl">Veel ondernemers weten dat digitalisering belangrijk is. De vraag is alleen <em>waar te beginnen.</em> Daar ondersteunen wij u bij.</h2>
+        <h2 class="en">Many entrepreneurs know digitalisation matters. The only question is <em>where to begin.</em> That's where we support you.</h2>
+        <p class="nl">ZT Digital is een digitaal bureau uit Nederland. Wij ontwikkelen websites en software, automatiseren bedrijfsprocessen en adviseren ondernemers over technologie en AI.</p>
+        <p class="nl">Wij geloven in een persoonlijke aanpak en heldere communicatie. Geen onnodig jargon of vrijblijvende rapporten, maar concrete oplossingen die aansluiten op uw bedrijf — uitgelegd in begrijpelijke taal.</p>
+        <p class="en">ZT Digital is a digital studio from the Netherlands. We develop websites and software, automate business processes and advise entrepreneurs on technology and AI.</p>
+        <p class="en">We believe in a personal approach and clear communication. No unnecessary jargon or non-committal reports, but concrete solutions that fit your business — explained in understandable language.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="diensten">
+  <div class="wrap">
+    <div class="services-head">
+      <h2 class="serif reveal nl">Hoe wij u<br><em>ondersteunen</em></h2>
+      <h2 class="serif reveal en">How we<br><em>support</em> you</h2>
+      <a href="diensten.html" class="btn btn-line reveal nl">Alle diensten <span class="arr">→</span></a>
+      <a href="diensten.html" class="btn btn-line reveal en">All services <span class="arr">→</span></a>
+    </div>
+    <div class="service-list">
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">01</span>
+        <div class="service-row-mid">
+          <h3 class="nl">Websites die scoren</h3><h3 class="en">Websites that perform</h3>
+          <p class="nl">Een professionele website die uw bedrijf sterk presenteert en nieuwe klanten oplevert.</p>
+          <p class="en">A professional website that presents your business strongly and brings in new customers.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">02</span>
+        <div class="service-row-mid">
+          <h3 class="nl">Software op maat</h3><h3 class="en">Custom software</h3>
+          <p class="nl">Heeft u een idee voor een applicatie of systeem? Wij ontwikkelen het, van begin tot eind.</p>
+          <p class="en">Have an idea for an application or system? We develop it, from start to finish.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">03</span>
+        <div class="service-row-mid">
+          <h3 class="nl">AI in je bedrijf</h3><h3 class="en">AI in your business</h3>
+          <p class="nl">Ontdek waar AI uw bedrijf daadwerkelijk tijd bespaart — praktisch en zonder hype.</p>
+          <p class="en">Discover where AI genuinely saves your business time — practical and without hype.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">04</span>
+        <div class="service-row-mid">
+          <h3 class="nl">Processen automatiseren</h3><h3 class="en">Automating work</h3>
+          <p class="nl">Terugkerende handmatige taken kunnen wij vaak volledig automatiseren.</p>
+          <p class="en">Recurring manual tasks can often be fully automated.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">05</span>
+        <div class="service-row-mid">
+          <h3 class="nl">Advies & consultancy</h3><h3 class="en">Advice & consultancy</h3>
+          <p class="nl">Onafhankelijk advies over digitalisering en welk systeem het beste bij u past.</p>
+          <p class="en">Independent advice on digitalisation and which system suits you best.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+      <a href="diensten.html" class="service-row reveal">
+        <span class="service-row-num">06</span>
+        <div class="service-row-mid">
+          <h3 class="nl">Veilig gebruik van AI</h3><h3 class="en">Safe use of AI</h3>
+          <p class="nl">Voorkom dat gevoelige bedrijfsdata weglekt via AI-tools. Wij helpen u AI verantwoord inzetten.</p>
+          <p class="en">Prevent sensitive company data from leaking through AI tools. We help you use AI responsibly.</p>
+        </div>
+        <span class="service-row-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="statement">
+  <div class="statement-glow"></div>
+  <div class="wrap">
+    <div class="statement-inner reveal">
+      <span class="qm serif">"</span>
+      <h2 class="serif nl">De beste software is niet de duurste of de meest complexe. Het is de software die <em>precies doet wat u nodig heeft.</em></h2>
+      <h2 class="serif en">The best software isn't the most expensive or the most complex. It's the software that <em>does exactly what you need.</em></h2>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-left reveal">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="nl">Waarom ZT Digital</span>
+          <span class="en">Why ZT Digital</span>
+        </div>
+        <h2 class="serif nl">Een partner die<br><em>met u</em> meedenkt.</h2>
+        <h2 class="serif en">A partner who<br>thinks <em>with</em> you.</h2>
+        <p class="nl">Wij werken graag voor ondernemers die hun vak verstaan, maar zich niet willen bezighouden met technische complexiteit. U weet wat uw bedrijf nodig heeft. Wij weten hoe wij dat realiseren.</p>
+        <p class="en">We enjoy working for entrepreneurs who know their craft, but prefer not to deal with technical complexity. You know what your business needs. We know how to deliver it.</p>
+      </div>
+      <div class="why-list reveal">
+        <div class="why-item">
+          <span class="why-item-num serif">01</span>
+          <div class="why-item-text">
+            <h3 class="nl">Snel, maar zorgvuldig</h3><h3 class="en">Fast, but careful</h3>
+            <p class="nl">Met moderne technologie ontwikkelen wij in weken wat traditioneel maanden kost, zonder concessies aan kwaliteit.</p>
+            <p class="en">With modern technology we develop in weeks what traditionally takes months, without compromising on quality.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="why-item-num serif">02</span>
+          <div class="why-item-text">
+            <h3 class="nl">Heldere communicatie</h3><h3 class="en">Plain language</h3>
+            <p class="nl">Geen onnodig jargon. Wij leggen elke keuze helder uit, zodat u altijd weet waar u aan toe bent.</p>
+            <p class="en">No unnecessary jargon. We explain every choice clearly, so you always know where you stand.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="why-item-num serif">03</span>
+          <div class="why-item-text">
+            <h3 class="nl">Eerlijk advies</h3><h3 class="en">Honest advice</h3>
+            <p class="nl">Heeft u iets niet nodig? Dan adviseren wij dat eerlijk. Wij verkopen geen oplossingen zonder toegevoegde waarde.</p>
+            <p class="en">Don't need something? We'll advise you honestly. We don't sell solutions without added value.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="why-item-num serif">04</span>
+          <div class="why-item-text">
+            <h3 class="nl">Bewezen in de praktijk</h3><h3 class="en">We build for ourselves too</h3>
+            <p class="nl">Naast opdrachten voor klanten ontwikkelen wij onze eigen softwareproducten. Wij weten waar wij over praten.</p>
+            <p class="en">Besides client work, we develop our own software products. We know what we're talking about.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-block">
+  <div class="cta-block-glow"></div>
+  <div class="wrap">
+    <div class="cta-block-inner reveal">
+      <h2 class="serif nl">Benieuwd naar de <em>mogelijkheden?</em></h2>
+      <h2 class="serif en">Curious about the <em>possibilities?</em></h2>
+      <p class="nl">Vertel ons over uw vraagstuk. Een eerste kennismaking is altijd vrijblijvend en kosteloos.</p>
+      <p class="en">Tell us about your challenge. A first consultation is always free and without obligation.</p>
+      <a href="contact.html" class="btn btn-primary nl"><span>Neem contact op</span><span class="arr">→</span></a>
+      <a href="contact.html" class="btn btn-primary en"><span>Get in touch</span><span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">ZT <em>Digital</em></a>
+        <p class="nl">Websites, software en AI voor ondernemers die willen groeien. Doordacht werk, in heldere taal.</p>
+        <p class="en">Websites, software and AI for entrepreneurs who want to grow. Considered work, in clear language.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4 class="nl">Menu</h4><h4 class="en">Menu</h4>
+          <ul>
+            <li><a href="diensten.html" class="nl">Diensten</a><a href="diensten.html" class="en">Services</a></li>
+            <li><a href="werkwijze.html" class="nl">Werkwijze</a><a href="werkwijze.html" class="en">How we work</a></li>
+            <li><a href="over-ons.html" class="nl">Over ons</a><a href="over-ons.html" class="en">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@ztdigital.nl">info@ztdigital.nl</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ZT Digital</span>
+      <span class="nl">Gemaakt in Nederland</span>
+      <span class="en">Made in the Netherlands</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
