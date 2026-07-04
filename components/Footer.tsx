@@ -9,7 +9,7 @@ const nav = [
 ];
 
 const contact = [
-  { label: "hello@ztdigital.nl", href: "mailto:hello@ztdigital.nl" },
+  { label: "hello@ztdigital.nl", href: "mailto:info@ztdigital.nl" },
   { label: "LinkedIn", href: "https://www.linkedin.com" },
   { label: "KvK 00000000", href: "#" },
 ];
